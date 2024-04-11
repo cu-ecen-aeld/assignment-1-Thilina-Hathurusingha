@@ -7,7 +7,7 @@ set -u
 
 NUMFILES=10
 WRITESTR=AELD_IS_FUN
-WRITEDIR=~/embeded_linux_week_1/tmp/aeld-data
+WRITEDIR=tmp/aeld-data
 username=$(cat conf/username.txt)
 
 if [ $# -lt 3 ]
