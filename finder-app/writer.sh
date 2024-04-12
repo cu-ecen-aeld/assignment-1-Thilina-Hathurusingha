@@ -18,7 +18,7 @@ dir_path=${file_path%/*}
 
 if [ $dir_path != $file_path -a ! -d "$dir_path"  ];
 then
-	mkdir $dir_path
+	mkdir -p $dir_path
 fi
 
 echo $2 > $file_path
